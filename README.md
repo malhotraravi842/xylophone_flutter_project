@@ -1,4 +1,4 @@
-# projectxylophone
+# xyloproject
 
 A new Flutter application.
 

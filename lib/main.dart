@@ -24,19 +24,21 @@ class XylophoneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.black,
         appBar: AppBar(
           backgroundColor: Colors.black,
           title: Center(
             child: Text(
-              "Xylophone",
-                style: TextStyle(
-                fontSize: 30.0,
-                fontFamily: 'Metal Mania',
-              ),
+                "Xylophone",
+              style: TextStyle(
+              fontSize: 30.0,
+              fontFamily: 'Metal Mania',
+              letterSpacing: 8.0,
+              fontWeight: FontWeight.bold,
+            ),
             ),
           ),
         ),
+        backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
